@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <title>FoodApp</title>
+</head>
+<body>
+  <section class="foodapp-wrapper">
+    <h1>Суточный рацион питания</h1>
+    <div id="foodapp" class="foodapp">
+      <div id="breakfest" class="foodapp-block">
+        <h2>Завтрак</h2>
+        <form>
+          <input type="text" name="dish" placeholder="Введите название блюда" required>
+          <input type="text" name="size" placeholder="Объем" required>
+          <input type="submit" value="Добавить">
+        </form>
+        <p>Список:</p>
+        <ol></ol>
+      </div>
+      <div id="dinner" class="foodapp-block">
+        <h2>Обед</h2>
+        <form>
+          <input type="text" name="dish" placeholder="Введите название блюда" required>
+          <input type="text" name="size" placeholder="Объем" required>
+          <input type="submit" value="Добавить">
+        </form>
+        <p>Список:</p>
+        <ol></ol>
+      </div>
+      <div id="supper" class="foodapp-block">
+        <h2>Ужин</h2>
+        <form>
+          <input type="text" name="dish" placeholder="Введите название блюда" required>
+          <input type="text" name="size" placeholder="Объем" required>
+          <input type="submit" value="Добавить">
+        </form>
+        <p>Список:</p>
+        <ol></ol>
+      </div>
+    </div>
+  </section>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
